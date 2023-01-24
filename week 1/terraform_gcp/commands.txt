@@ -1,0 +1,9 @@
+gcloud auth application-default login
+
+terraform init
+
+terraform plan -var="project=de-zoomcamp-2023-375214"
+
+terraform apply -var="project=de-zoomcamp-2023-375214"
+
+terraform destroy
