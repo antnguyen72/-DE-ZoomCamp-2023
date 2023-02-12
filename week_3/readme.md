@@ -45,12 +45,13 @@ Choose the answer which most closely matches
 
 ## Question 6:
 Where is the data stored in an External table?
+
 GCP Bucket (hence note earlier)
 
 ## Question 7:
 Is it best practice in Big Query to always cluster your data?
 
-No. If your dataset is less than 1Gb. It might not be wise to cluster or partition data. because the cost incurs from querying a non-clustered table is probably not more than the cost incur from clustering operation
+No. If your dataset is less than 1Gb. It might not be wise to cluster or partition data. because the cost incurred from querying a non-clustered table is probably not more than the cost incurred from clustering operation
 
 
 -
