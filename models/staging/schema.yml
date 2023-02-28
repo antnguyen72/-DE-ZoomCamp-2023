@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-2023-375214
+    schema: week_4_data
+
+    tables:
+      - name: green
+      - name: yellow
